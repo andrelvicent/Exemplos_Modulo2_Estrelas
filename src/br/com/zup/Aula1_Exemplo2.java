@@ -9,7 +9,14 @@ public class Aula1_Exemplo2 {
         // Criando a operação de soma
         int resultadoDaSoma = numero1 + numero2;
 
+        // Criando a operação de subtração
+        int resultadoDaSubtracao = numero1 - numero2;
+
         // Exibindo a operação de soma para o usuário
-        System.out.println(resultadoDaSoma);
+        System.out.println("O resultado da soma é: "+resultadoDaSoma);
+
+        // Exibindo a operação de subtração para o usuário
+        System.out.println("O resultado da subtração é: "+resultadoDaSubtracao);
+
     }
 }
