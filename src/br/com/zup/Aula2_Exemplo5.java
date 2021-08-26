@@ -20,11 +20,11 @@ public class Aula2_Exemplo5 {
             System.out.println("O primeiro numero é o maior");
         }
 
-        if (primeiroNumero == segundoNumero){
+        else if (primeiroNumero == segundoNumero){
             System.out.println("Os números são iguais");
         }
         // Se não, o segundo número é o maior
-        else{
+        else {
             System.out.println("O segundo número é o maior");
         }
     }
