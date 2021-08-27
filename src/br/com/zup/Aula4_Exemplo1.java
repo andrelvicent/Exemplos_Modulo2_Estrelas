@@ -49,9 +49,9 @@ public class Aula4_Exemplo1 {
         valorDoAumento = salarioAtual * percentualDeAumento;
         novoSalario = salarioAtual + valorDoAumento;
 
-
+        double valorEmPorcentagemDoAumento = (percentualDeAumento * 100);
         System.out.println("O salário atual da pessoa é: R$ " +salarioAtual);
-        System.out.println("Você receberá " + (percentualDeAumento * 100)  + "% de aumento");
+        System.out.println("Você receberá " +  valorEmPorcentagemDoAumento + "% de aumento");
         System.out.println("O valor do seu aumento será: R$ "+valorDoAumento);
         System.out.println("O seu novo salário será: R$ "+novoSalario);
     }
