@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula2;
 
 // Importando o Scanner
 import java.util.Scanner;

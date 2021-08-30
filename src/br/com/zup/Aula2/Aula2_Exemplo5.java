@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula2;
 // Faça um programa que receba dois números e imprima o maior deles.
 
 import java.util.Scanner;

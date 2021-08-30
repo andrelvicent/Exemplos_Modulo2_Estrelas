@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula4;
 
 // Corrigindo exercício 4 da lista 2
 

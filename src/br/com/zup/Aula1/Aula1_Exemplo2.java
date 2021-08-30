@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula1;
 
 public class Aula1_Exemplo2 {
     public static void main(String[] args) {

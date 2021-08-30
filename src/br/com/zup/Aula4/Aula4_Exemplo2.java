@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula4;
 
 import java.util.Scanner;
 

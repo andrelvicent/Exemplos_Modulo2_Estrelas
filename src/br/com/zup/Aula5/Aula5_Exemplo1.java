@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula5;
 
 /*
   # 2 - Um posto está vendendo combustíveis com a seguinte tabela de descontos:

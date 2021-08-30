@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula2;
 
 // Faça um programa que receba 4 notas bimestrais e mostre a média aritmética.
 

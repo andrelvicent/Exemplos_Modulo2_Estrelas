@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula2;
 
  // Trabalhando com estruturas de decisão
 

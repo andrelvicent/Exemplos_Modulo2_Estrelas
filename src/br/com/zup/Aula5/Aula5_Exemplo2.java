@@ -1,4 +1,4 @@
-package br.com.zup;
+package br.com.zup.Aula5;
 
 import jdk.swing.interop.SwingInterOpUtils;
 
