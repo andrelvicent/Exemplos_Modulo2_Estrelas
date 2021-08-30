@@ -19,11 +19,11 @@ public class Aula5_Exemplo3 {
             double valorLidoPeloUsuario = leitor.nextDouble();
             // Toda vez que executar o loop, nós vamos somar o valor lido a variável soma
             soma = soma + valorLidoPeloUsuario;
-
-            System.out.println("Valor da variável soma até agora: "+soma);
             contador ++;
         }
-        System.out.println("A soma de todos os números é: " +soma);
+        media = soma / quantidadeDeNumeros;
+
+        System.out.println("A média aritmética dos números é: " +media);
     }
 
 
