@@ -11,6 +11,7 @@ public class Aula5_Exemplo3 {
         double soma = 0;
         double media = 0;
         int contador = 0;
+
         System.out.println("Por favor, digite a quantidade de números: ");
         quantidadeDeNumeros = leitor.nextDouble();
 
@@ -21,6 +22,7 @@ public class Aula5_Exemplo3 {
             soma = soma + valorLidoPeloUsuario;
             contador ++;
         }
+
         media = soma / quantidadeDeNumeros;
 
         System.out.println("A média aritmética dos números é: " +media);
