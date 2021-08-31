@@ -19,7 +19,6 @@ public class Aula6_Exemplo1 {
             System.out.println("Digite o número " + contador + " :");
             valorLidoPeloUsuario = leitor.nextDouble();
 
-
             if (contador == 1) {
                 menorNumero = valorLidoPeloUsuario;
                 maiorNumero = valorLidoPeloUsuario;
@@ -38,6 +37,7 @@ public class Aula6_Exemplo1 {
            // System.out.println(somaDosNumeros);
             // somaDosNumeros += valorLidoPeloUsuario
         }
+
         System.out.println("O menor número é: " +menorNumero);
         System.out.println("O maior número é: " +maiorNumero);
         System.out.println("A soma de todos os números é: "+somaDosNumeros);
