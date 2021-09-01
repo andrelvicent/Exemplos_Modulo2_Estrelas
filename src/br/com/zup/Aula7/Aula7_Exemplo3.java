@@ -20,6 +20,7 @@ public class Aula7_Exemplo3 {
 
             // Verificando se o valor é maior do que 0
             if (valorDigitadoPeloUsuario >= 0 ){
+                // Adicionando valor na lista
                 numeros.add(valorDigitadoPeloUsuario);
                 contador ++;
             }else{
