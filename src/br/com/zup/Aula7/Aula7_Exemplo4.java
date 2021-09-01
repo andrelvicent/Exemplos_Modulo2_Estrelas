@@ -24,9 +24,8 @@ public class Aula7_Exemplo4 {
             contador++;
         }
         // System.out.println(numeros);
-        while (contadorDeExibicao >= finalDeExibicao){
-            System.out.println(numeros.get(contadorDeExibicao));
-            contadorDeExibicao-- ;
+        for (int contadorInverso = 9; contadorInverso >= 0; contadorInverso--) {
+            System.out.println(numeros.get(contadorInverso));
         }
 
     }
