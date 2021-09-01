@@ -9,10 +9,13 @@ public class Aula7_Exemplo2 {
         Map<String, String> contatos = new HashMap<String, String>();
 
         contatos.put("andre@andre", "André");
-        contatos.put("joao@joao", "Joao");
         contatos.put("marcio@marcio", "Marcio");
         contatos.put("ev@ev", "Evellyn");
 
-        System.out.println("Este email é do: " +contatos.get("andre@andre"));
+        for (String referencia : contatos.keySet()) {
+            System.out.println("Chave: " +referencia + " valor: " +contatos.get(referencia));
+
+        }
+
     }
 }
