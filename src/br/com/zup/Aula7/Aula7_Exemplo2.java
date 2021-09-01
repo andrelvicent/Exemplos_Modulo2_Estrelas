@@ -6,15 +6,15 @@ import java.util.Map;
 public class Aula7_Exemplo2 {
     public static void main(String[] args) {
         // Criando uma estrutura HashMap
-        Map<String, String> contatos = new HashMap<String, String>();
+        Map<String, Integer> contatos = new HashMap<String, Integer>();
 
-        contatos.put("andre@andre", "André");
-        contatos.put("marcio@marcio", "Marcio");
-        contatos.put("ev@ev", "Evellyn");
+        contatos.put("André Luiz", 24);
+        contatos.put("Karen", 26);
+        contatos.put("@marcio",23);
 
+        // Imprimindo chaves e valores
         for (String referencia : contatos.keySet()) {
             System.out.println("Chave: " +referencia + " valor: " +contatos.get(referencia));
-
         }
 
     }
